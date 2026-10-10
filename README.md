@@ -65,7 +65,7 @@ For the out-of-sample test I split the period in January 2018 and pick the windo
 
 The worst months are April 2009 (-30%), November 2020 (-27%), January 2011 (-15%), July 2010 (-13%) and April 2014 (-12%). They are sharp rebounds in stocks that were sold short (Renault, Stellantis and Michelin in 2009, Renault and the banks after the vaccine announcements in 2020). This is not a data error, it is the momentum crash described in the literature.
 
-In short, on these 39 stocks, 12-1 momentum does worse than a simple equal-weighted portfolio and does not hold up when the window changes. I did not look into where the -81% to -89% drawdowns of the shorter windows come from.
+**In short, on these 39 stocks, 12-1 momentum does worse than a simple equal-weighted portfolio and does not hold up when the window changes. I did not look into where the -81% to -89% drawdowns of the shorter windows come from.**
 
 ## Limitations
 
@@ -78,3 +78,5 @@ In short, on these 39 stocks, 12-1 momentum does worse than a simple equal-weigh
 ## Reference
 
 Jegadeesh, N. and Titman, S. (1993), Returns to Buying Winners and Selling Losers, Journal of Finance.
+
+I wrote this project with help from Claude (Anthropic) for the Python code. The research question, the choice of strategy and the interpretation of the results are mine.
